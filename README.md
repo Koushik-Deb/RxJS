@@ -29,6 +29,7 @@ This repository is made of several separate npm modules, that are installable se
     
     cd rxjs-course
     npm install
+    or npm install --save-dev --legacy-peer-deps
 
 Its also possible to install the modules as usual using npm:
 
@@ -58,20 +59,9 @@ The application is visible at port 4200: [http://localhost:4200](http://localhos
 
 # Important 
 
-This repository has multiple branches, have a look at the beginning of each section to see the name of the branch.
-
-At certain points along the course, you will be asked to checkout other remote branches other than master. You can view all branches that you have available remotely using the following command:
-
-    git branch -a
-
-  The remote branches have their starting in origin, such as for example 1-navigation-and-containers.
-
-We can checkout the remote branch and start tracking it with a local branch that has the same name, by using the following command:
-
-      git checkout -b section-1 origin/1-navigation-and-containers
-
-It's also possible to download a ZIP file for a given branch,  using the branch dropdown on this page on the top left, and then selecting the Clone or Download / Download as ZIP button.
-
+If facing problem while running
+    npm start
+Please reinstall angular cli globally. 
 # Other Courses
 
 # Angular PWA Course
