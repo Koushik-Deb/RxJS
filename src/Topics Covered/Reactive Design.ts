@@ -1,9 +1,11 @@
+/// paste this into home.component.ts . (however you may need to change home.component.html accordingly)
+
+
 import {Component, OnInit} from '@angular/core';
 import {Course} from "../model/course";
 import {interval, Observable, of, timer} from 'rxjs';
 import {catchError, delayWhen, map, retryWhen, shareReplay, tap} from 'rxjs/operators';
 import { createHTTPObservable } from '../util/util';
-
 
 @Component({
     selector: 'home',
@@ -24,9 +26,7 @@ export class HomeComponent implements OnInit {
 
         const courses$: Observable<Course[]> = http$
                             .pipe(
-                                tap(()=>console.log("HTTP request executed")),
-                                map(res=>Object.values(res["payload"])),
-                                shareReplay<Course[]>()
+                            map(res=>Object.values(res["payload"]))
                             );    //derive observables from existing ones
 
         this.beginnerCourses$ =  courses$
