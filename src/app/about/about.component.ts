@@ -13,18 +13,7 @@ export class AboutComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {  
-    const http$ = createHTTPObservable("/api/courses");
 
-    const courses$ = http$
-                      .pipe(
-                        map(res=>Object.values(res["payload"]))
-                      );    //derive observables from existing ones
-
-    const subHttp = courses$.subscribe(
-      courses=>console.log(courses),
-      ()=>{},
-      ()=>console.log("This is complete")
-      );
   }
 
 }
