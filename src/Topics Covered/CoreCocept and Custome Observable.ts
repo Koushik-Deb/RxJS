@@ -1,3 +1,10 @@
+
+
+// JUST PASTE THIS IN app/about/about.component.ts to run this 
+
+
+
+
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { fromEvent, interval, noop, Observable, timer } from 'rxjs';
 
