@@ -4,6 +4,7 @@ import { HomeComponent } from "./home/home.component";
 import { AboutComponent } from "./about/about.component";
 import { CourseComponent } from "./course/course.component";
 import { PartOneSimpleExplanationComponent } from "./part-one-simple-explanation/part-one-simple-explanation.component";
+import { PartTwoOwnHttpObservableComponent } from "./part-two-own-http-observable/part-two-own-http-observable.component";
 
 const routes: Routes = [
   {
@@ -21,6 +22,10 @@ const routes: Routes = [
   {
     path: "part-one-simple-explanation",
     component: PartOneSimpleExplanationComponent,
+  },
+  {
+    path: "part-two-own-http-observable",
+    component: PartTwoOwnHttpObservableComponent,
   },
   {
     path: "**",

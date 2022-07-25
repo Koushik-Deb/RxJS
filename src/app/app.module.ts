@@ -29,6 +29,7 @@ import { CourseDialogComponent } from "./course-dialog/course-dialog.component";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { MatMomentDateModule } from "@angular/material-moment-adapter";
 import { PartOneSimpleExplanationComponent } from './part-one-simple-explanation/part-one-simple-explanation.component';
+import { PartTwoOwnHttpObservableComponent } from './part-two-own-http-observable/part-two-own-http-observable.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { PartOneSimpleExplanationComponent } from './part-one-simple-explanation
     CoursesCardListComponent,
     CourseDialogComponent,
     PartOneSimpleExplanationComponent,
+    PartTwoOwnHttpObservableComponent,
   ],
   imports: [
     BrowserModule,
