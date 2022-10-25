@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { noop, observable, Observable } from "rxjs";
+import { noop, Observable } from "rxjs";
 
 @Component({
   selector: "part-two-own-http-observable",

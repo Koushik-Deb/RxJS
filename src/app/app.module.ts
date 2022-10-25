@@ -30,6 +30,7 @@ import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { MatMomentDateModule } from "@angular/material-moment-adapter";
 import { PartOneSimpleExplanationComponent } from './part-one-simple-explanation/part-one-simple-explanation.component';
 import { PartTwoOwnHttpObservableComponent } from './part-two-own-http-observable/part-two-own-http-observable.component';
+import { PartThreeOperatorsComponent } from './part-three-operators/part-three-operators.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { PartTwoOwnHttpObservableComponent } from './part-two-own-http-observabl
     CourseDialogComponent,
     PartOneSimpleExplanationComponent,
     PartTwoOwnHttpObservableComponent,
+    PartThreeOperatorsComponent,
   ],
   imports: [
     BrowserModule,
